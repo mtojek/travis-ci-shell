@@ -25,3 +25,17 @@ It may happen that you need **urgent access** to the **Bash** shell even if you'
 
 5. Merry Xmas!
 
+## Screenshots
+
+Trigger manual build...
+
+<img src="https://github.com/mtojek/travis-ci-shell/blob/master/screenshots/scr-1.png" width="640px" />
+
+Watch for tunnel URL...
+
+<img src="https://github.com/mtojek/travis-ci-shell/blob/master/screenshots/scr-2.png" width="640px" />
+
+Open terminal within your browser!
+
+<img src="https://github.com/mtojek/travis-ci-shell/blob/master/screenshots/scr-3.png" width="640px" />
+
