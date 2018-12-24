@@ -1,5 +1,7 @@
 language: generic
 
+sudo: required
+
 script:
   - "bash run.sh"
   - "sleep 1800"
