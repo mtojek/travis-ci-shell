@@ -11,6 +11,7 @@ It may happen that you need **urgent access** to the **Bash** shell even if you'
  * support for **multiple programming languages** and **databases** (see: [Minimal and Generic](https://docs.travis-ci.com/user/languages/minimal-and-generic/)): go, jvm, php, ruby, etc.
  * **only browser** required (thanks to [GoTTY](github.com/yudai/gotty))
  * shell **time limit** is set according to the Travis CI pricing plan (**free plan** - currently **50 min**)
+ * support for **HTTPS tunnel** (thanks to [ngrok](https://ngrok.com/))
 
 ## Getting started
 
