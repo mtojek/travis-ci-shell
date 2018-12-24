@@ -5,4 +5,4 @@ sudo: required
 script:
   - "git clone https://github.com/mtojek/phpshell-toolkit.git"
   - "bash phpshell-toolkit/run-gotty/run.sh"
-  - "sleep 1800"
+  - "sleep 2700 || true"
