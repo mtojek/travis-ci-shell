@@ -9,6 +9,9 @@ unzip /tmp/ngrok.zip -d /tmp && rm /tmp/ngrok.zip
 /tmp/ngrok http 7591 &
 sleep 5
 
+echo
+echo
+echo
 echo Tunnel address:
 curl -s http://127.0.0.1:4040/status | egrep -o -e "https://[a-z0-9]{1,8}.ngrok.io"
 
