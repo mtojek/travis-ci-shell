@@ -6,7 +6,7 @@ tar xzf /tmp/gotty.tar.gz -C /tmp/ && rm /tmp/gotty.tar.gz
 
 curl -s -L https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o /tmp/ngrok.zip
 unzip /tmp/ngrok.zip -d /tmp && rm /tmp/ngrok.zip
-/tmp/ngrok tcp 7591 &
+/tmp/ngrok http 7591 &
 sleep 5
 
 echo Tunnel address:
