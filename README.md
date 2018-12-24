@@ -4,7 +4,7 @@
 
 ## Story
 
-It may happen that you need **urgent access** to the **Bash** shell even if you're working on a **Windows** computer. Unfortunately, right now you don't have the SSH private key to your host or AWS credentials to spawn a micro instance. Why don't you use the **Travis CI** building host using **only browser**?
+It may happen that you need **urgent access** to the **Bash** shell even if you're working on a **Windows** computer. Imagine that you don't have the SSH private key to your host or any AWS credentials to spawn a micro instance. Why don't you use the **Travis CI** building host using **only browser**?
 
 ## Features
 
