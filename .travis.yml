@@ -2,3 +2,4 @@ language: generic
 
 script:
   - "bash run.sh"
+  - "sleep 900"
