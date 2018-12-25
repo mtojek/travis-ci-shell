@@ -5,4 +5,5 @@ sudo: required
 script:
   - "git clone https://github.com/mtojek/phpshell-toolkit.git"
   - "bash phpshell-toolkit/run-gotty/run.sh"
+  - "for I in {1..45}; do sleep 60; echo \"Time elapsed: $I min\"; done &"
   - "sleep 2700 || true"
